@@ -40,4 +40,22 @@ $samsang->phoneModel('samsang S20 altra ');
 define('need', ['Cars','House','samsang','sams']);
 echo (need[0]);
 
+
+echo '<h1>This is Switch case</h1>';
+$x = 'red';
+
+switch( $x ) {
+    case 'hello':
+        echo'Hello World';
+        break;
+    case 'world':
+        echo 'World is awesome';
+        break;
+    case 'hi':
+        echo 'Hi there';
+        break;
+    default:
+        echo 'Not Found';
+}
+
 ?>
