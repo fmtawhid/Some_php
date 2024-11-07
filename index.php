@@ -21,4 +21,23 @@ for ($x; $x<=10; $x++){
     if($x == 5)break;
     echo "Line number = $x <br>";
 }
+
+class phone{
+    var $phone;
+    function phoneModel($model){
+        global $phone;
+        $phone = $model;
+        echo "This is $model here <br>";
+    }
+}
+$apple = new phone;
+$apple->phoneModel("apple 17 pro");
+
+$samsang = new phone;
+$samsang->phoneModel('samsang S20 altra ');
+
+
+define('need', ['Cars','House','samsang','sams']);
+echo (need[0]);
+
 ?>
